@@ -21,4 +21,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     re_path('bbs/',include('bbs.urls'))
 ]
- 
