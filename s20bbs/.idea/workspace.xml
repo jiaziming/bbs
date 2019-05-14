@@ -2,29 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf63f049-cd06-4c30-8920-649f802f5a81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bbs/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/css/ie10-viewport-bug-workaround.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/css/navbar-static-top.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/ie-emulation-modes-warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/ie10-viewport-bug-workaround.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/jquery-3.4.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/npm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/.idea/vcs.xml" afterDir="false" />
@@ -40,10 +17,7 @@
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/status_crm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/status_crm/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/status_crm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/status_crm/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bbs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s20bbs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/s20bbs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bbs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bbs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+            <state relative-caret-position="697">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -295,12 +269,12 @@
       <workItem from="1557375754131" duration="9390000" />
       <workItem from="1557479420988" duration="777000" />
       <workItem from="1557480289526" duration="30000" />
-      <workItem from="1557480320590" duration="8418000" />
+      <workItem from="1557480320590" duration="8814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18615000" />
+    <option name="totallyTimeSpent" value="19011000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,17 +287,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49544072" visible="true" weight="0.25772098" />
       <window_info id="Structure" order="1" sideWeight="0.5045593" side_tool="true" weight="0.25772098" />
       <window_info id="Favorites" order="2" sideWeight="0.50142044" side_tool="true" weight="0.24973376" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.49840257" visible="true" weight="0.32928064" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49840257" weight="0.32928064" />
       <window_info anchor="bottom" id="Database Changes" order="2" sideWeight="0.49946752" weight="0.32928064" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
       <window_info anchor="bottom" id="Python Console" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946752" weight="0.28672746" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.49946752" visible="true" weight="0.28672746" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50159746" side_tool="true" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
@@ -536,8 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        <state relative-caret-position="697">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
