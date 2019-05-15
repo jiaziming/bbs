@@ -18,5 +18,6 @@ from django.urls import path,re_path,include
 from bbs import views
 
 urlpatterns = [
-    re_path(r'^$',views.index)
+    re_path(r'^$',views.index),
+    re_path(r'^category/(\d+)/$',views.category,name='category')
 ]

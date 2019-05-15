@@ -24,7 +24,7 @@
   </head>
 
   <body>
-
+  {% block page-container %}
     <!-- Static navbar -->
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
@@ -35,21 +35,30 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://v3.bootcss.com/examples/navbar-static-top/#">Project name</a>
+          <a class="navbar-brand" href="" style="font-size: 30px;color: #9acfea" >首 页</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
            {% block top-menu %}
-            <ul class="nav navbar-nav">
-            {% for category in category_list %}
-            <li class="active"><a href="#">{{ category.name }}</a></li>
-
-            {% endfor %}
-            </ul>
-            {% endblock %}
+          <ul class="nav navbar-nav">
+           {% for category in category_list %}
+               {% if category.id == category_obj.id %}
+                   <li class="active"><a href="{% url 'category' category.id %}">{{ category.name }}</a></li>
+               {% else %}
+                   <li class=""><a href="{% url 'category' category.id %}">{{ category.name }}</a></li>
+               {% endif %}
+           {% endfor %}
+          </ul>
+           {% endblock %}
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://v3.bootcss.com/examples/navbar/">Default</a></li>
-            <li class="active"><a href="https://v3.bootcss.com/examples/navbar-static-top/">Static top <span class="sr-only">(current)</span></a></li>
-            <li><a href="https://v3.bootcss.com/examples/navbar-fixed-top/">Fixed top</a></li>
+              {% if request.user.is_authenticated %}
+                  <li class=""><a href="" style="font-size: 20px;color: #5bc0de">欢 迎{{ request.user.userprofile.name }}</a></li>
+                  <li class=""><a href="{% url 'logout' %}" >注 销</a></li>
+
+              {% else %}
+                <li class=""><a href="{% url 'login' %}">登 录</a></li>
+                <li class=""><a href="">注 册</a></li>
+
+              {% endif %}
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -60,14 +69,9 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="https://v3.bootcss.com/components/#navbar" role="button">View navbar docs »</a>
-        </p>
+          <h2> Welcome You stuff </h2>
       </div>
-
+    {% endblock %}
     </div> <!-- /container -->
 
 

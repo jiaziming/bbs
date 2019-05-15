@@ -19,5 +19,8 @@ from bbs import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path('bbs/',include('bbs.urls'))
+    re_path('bbs/',include('bbs.urls')),
+    re_path('login/', views.acc_login,name='login'),
+    re_path('logout/', views.acc_logout, name='logout'),
+
 ]
