@@ -1,2 +1,35 @@
 {% extends 'base.html' %}
+{% load custom %}
+{% block page-container %}
+    <div class="wrap-left">
+        {% for article in article_list  %}
+            <div class="article-box row">
+                <div class="article-head-img col-lg-4">
+                    <img src="/static/{{ article.head_img|truncate_url }}">
+                </div>
+                <div class="article-brief col-lg-8">
+                    <a class="article-title" href="{% url 'article_detail' article.id %}">{{ article.title }}</a>
+                    <div class="article-brief-info">
+                        <a href=""><span class="glyphicon glyphicon-user">{{ article.author.name }}</span></a>
+                        <a href=""><span>{{ article.pub_date }}</span></a>
+                        <span>{% filter_comment article as comments %}
+                        <a href=""><span class="glyphicon glyphicon-comment">{{ comments.comment_count }}</span></a>
+                        <a href=""><span class="glyphicon glyphicon-thumbs-up">{{ comments.thumb_count }}</span></a>
 
+                    </div>
+                    <div class="article-brief-text">
+                        <span>{{ article.brief }}</span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        {% endfor %}
+    </div>
+    <div class="wrap-right">
+     sdfsdf
+    </div>
+    <div class="clear-both"></div>
+
+
+
+{% endblock %}
