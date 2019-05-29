@@ -22,14 +22,24 @@
         </div>
         <div class="comment-box">
             {% if request.user.is_authenticated %}
+                <div>
+                    <span class="span-make"> 说点什么</span>
                     <textarea class="form-control"  rows="10"></textarea>
-                    <button class="btn btn-success pull-right" style="margin-top: 10px" type="button" > 评 论</button>
+                    <button class="button-Release" style="margin-top: 10px" type="button" >评论</button>
+
+                </div>
+                <div>
+                    <span class="hot-mark">热门评论</span>
+                    <div class="comment-list"></div>
+                </div>
+
             {% else %}
                     <div class="jumbotron">
-                        <h4 class="text-center"><a class="btn-link" href="{% url 'login' %}">登 录</a> 后参与评论</h4>
+                        <h4 class="text-center"><a class="btn-link" href="{% url 'login' %}?next={{ request.path }}">登 录</a> 后参与评论</h4>
                     </div>
             {% endif %}
         </div>
+        <button type="button" onclick="getcomment()">测试评论</button>
 
     </div>
     <div class="wrap-right">
@@ -43,6 +53,14 @@
 
 {% block bottom-js %}
 <script>
+    
+    function getcomment() {
+
+        $.get("{% url 'get_comments' article_obj.id %}",function (callback) {
+            $(".comment-list").html(callback)
+        })
+    }
+
 
     function getCsrf(){
         return $("input[name='csrfmiddlewaretoken']").val();
@@ -54,8 +72,8 @@
     $(document).ready(function () {
         $(".comment-box button").click(function () {
             var comment_text = $(".comment-box textarea").val();
-            if (comment_text.trim().length <10){
-                alert("评论不能少于10个字符！~")
+            if (comment_text.trim().length <5){
+                alert("评论不能少于5个字符！~")
             }else {
              // post
                 $.post("{% url 'post_comment' %}",
@@ -69,6 +87,9 @@
                     },  //end post args
                     function (callback) {
                         console.log(callback);
+                        if (callback == 'post-comment-success'){
+                            alert("post-comment-success")
+                        }
                 })  //end post
             }
 
@@ -77,3 +98,5 @@
 
 </script>
 {% endblock %}
+
+

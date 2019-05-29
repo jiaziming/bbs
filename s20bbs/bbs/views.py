@@ -3,7 +3,8 @@ from django.contrib.auth import login,logout,authenticate
 from django.contrib.auth.decorators import login_required
 
 
-from bbs import models
+from bbs import models,comment_hader
+import json
 
 
 # Create your views here.
@@ -38,7 +39,7 @@ def acc_login(request,):
         if user is not None:
             # pass authentication
             login(request,user)
-            return HttpResponseRedirect('/bbs')
+            return HttpResponseRedirect(request.GET.get('next') or '/bbs')
 
         else:
             login_error = '错误的用户名或密码 请重新输入!!!'
@@ -55,11 +56,31 @@ def acc_logout(request):
 
 def  article_detail(request,articlt_id):
    article_obj = models.Article.objects.get(id=articlt_id)
+   comment_tree = comment_hader.build_tree(article_obj.comment_set.select_related())
    return render(request,'bbs/article_detail.html',{'article_obj':article_obj,
                                                     'category_list':category_list,})
 
 
 def post_comment(request):
     print(request.POST)
+    if request.method == "POST":
+        new_comment_obj = models.Comment(
+            article_id=request.POST.get('article_id'),
+            parent_comment_id=request.POST.get('parent_comment_id'),
+            comment_type=request.POST.get('comment_type'),
+            user_id=request.user.userprofile.id,
+            comment=request.POST.get('comment')
+        )
 
-    return HttpResponse('ddddddd')
+        new_comment_obj.save()
+
+        return HttpResponse('post-comment-success')
+
+
+
+def get_comments(request, article_id):
+    article_obj = models.Article.objects.get(id=article_id)
+    comment_tree = comment_hader.build_tree(article_obj.comment_set.select_related())
+    tree_html = comment_hader.render_comment_tree(comment_tree)
+
+    return HttpResponse(tree_html)

@@ -93,3 +93,44 @@ body {
     color: #fff;
     background-color: #3ca5f6;
 }
+
+.button-Release {
+    width: 148px;
+    height: 48px;
+    line-height: 38px;
+    color: #fff;
+    background-color: #3ca5f6;
+    font-size: 18px;
+    border-radius: 4px!important;
+    margin-top: 32px;
+
+}
+
+.span-make {
+    display: inline-block;
+    border-bottom: 4px solid #f63756;
+    height: 28px;
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: 46px;
+}
+
+.hot-mark {
+
+    border-bottom: 4px solid #f63756;
+    height: 65px;
+    line-height: 100px;
+    font-size: 16px;
+    display: inline-block;
+
+}
+
+.comment-node {
+    border: 1px solid #eae6de;
+    padding: 5px;
+}
+
+.root-node {
+     border: 1px solid #efefef;
+    padding: 5px;
+}

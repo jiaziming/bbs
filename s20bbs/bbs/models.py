@@ -57,7 +57,7 @@ class Comment(models.Model):
             raise ValidationError("评论内容不能为空")
 
     def __str__(self):
-        return  "%s,p:%s,%s" %(self.article,self.parent_comment,self.comment)
+        return  "c:%s" %(self.comment)
 
 
 
