@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 
 
 from bbs import models,comment_hader
+from bbs import form
 import json
 
 
@@ -84,3 +85,11 @@ def get_comments(request, article_id):
     tree_html = comment_hader.render_comment_tree(comment_tree)
 
     return HttpResponse(tree_html)
+
+
+def new_article(request):
+
+    if request.method == "GET":
+        article_from = form.ArticleForm()
+
+        return  render(request,'bbs/new-article.html',{'article_from':article_from})

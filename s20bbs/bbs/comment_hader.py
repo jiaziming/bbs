@@ -22,9 +22,12 @@ def add_node(tree_dic,comment):
 def render_tree_node(tree_dic,margin_val):
     html = ""
     for k,v in tree_dic.items():
-        ele = "<div class='comment-node' style='margin-left: %spx'>" %margin_val + k.comment +"</div>"
+        ele = "<div class='comment-node' style='margin-left: %spx'>" %margin_val + k.comment + "<span style='margin-left :30px'>发布时间：%s </span>" %k.date \
+              + "<span style='margin-left :30px'> 作者：%s</span>" %k.user.name + \
+              '<span comment-id="%s" '% k.id +' class="glyphicon glyphicon-comment add-comment" style="margin-left:30px"> </span>' \
+              + "</div>"
         html += ele
-        html += render_tree_node(v,margin_val+10)
+        html += render_tree_node(v,margin_val+20)
     return html
 
 
@@ -32,7 +35,10 @@ def render_tree_node(tree_dic,margin_val):
 def render_comment_tree(tree_dic):
     html = ""
     for k,v in tree_dic.items():
-        ele = "<div class='root-node'>" + k.comment +"</div>"
+        ele = "<div class='root-node'>" + k.comment + "<span style='margin-left :30px'>发布时间：%s </span>" %k.date \
+              + "<span style='margin-left :30px'> 作者：%s</span>" %k.user.name + \
+              '<span comment-id="%s" '% k.id +'" class="glyphicon glyphicon-comment add-comment" style="margin-left:30px"> </span>' \
+              + "</div>"
         html += ele
         html += render_tree_node(v,10)
     return html

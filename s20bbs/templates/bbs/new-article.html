@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load custom %}
+{% block page-container %}
+    <div class="wrap-left">
+        <form>
+            <!--
+            符文本编辑器    ueditor  百度   ckeditir  国外付费
+             -->
+
+            {{ article_from }}
+        </form>
+    </div>
+    <div class="wrap-right">
+     sdfsdf
+    </div>
+    <div class="clear-both"></div>
+
+{% endblock %}
+
+{% block bottom-js %}
+
+<script src="/static/plugins/ckeditor/ckeditor.js"></script>
+<script type="text/javascript">
+    CKEDITOR.replace(id="id_content")
+
+</script>
+
+
+{% endblock %}
