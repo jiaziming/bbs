@@ -17,7 +17,7 @@
         <div>
             <div class="article-content">
                 <img class="article-detail-head-img" src="/static/{{ article_obj.head_img|truncate_url }}">
-                {{ article_obj.content }}
+                {{ article_obj.content|safe}}
             </div>
         </div>
         <div class="comment-box">
@@ -104,7 +104,8 @@
                     function (callback) {
                         //console.log(callback);
                         if (callback =='post-comment-success'){
-                            var new_comment_box_div = $(".new-comment-box").clone(true);
+                            var new_comment_box_div = $(".new-comment-box").clone();
+
                             $(".comment-list").before(new_comment_box_div);
                             $(".new-comment-box textarea").val("");
                             // 在刷新评论之前，把评论框放回评论框底部

@@ -8,7 +8,7 @@ class ArticleForm(ModelForm):
 
     class Meta:
         model = models.Article
-        exclude = ()
+        exclude = ('author','pub_date','priority')
 
     def __init__(self, *args, **kwargs):
         super(ArticleForm, self).__init__(*args, **kwargs)

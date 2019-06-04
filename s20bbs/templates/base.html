@@ -53,7 +53,7 @@
            {% endblock %}
           <ul class="nav navbar-nav navbar-right">
               {% if request.user.is_authenticated %}
-                  <li class=""><a href="{% url 'new-article' %}">发布</a></li>
+                  <li class=""><a href="{% url 'new-article' %}">发 帖 </a></li>
                   <li class=""><a href="" style="font-size: 18px;color: #5bc0de">欢 迎{{ request.user.userprofile.name }}</a></li>
                   <li class=""><a href="{% url 'logout' %}" >注 销</a></li>
 

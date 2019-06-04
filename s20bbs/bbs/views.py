@@ -86,10 +86,26 @@ def get_comments(request, article_id):
 
     return HttpResponse(tree_html)
 
-
+@login_required
 def new_article(request):
 
     if request.method == "GET":
         article_from = form.ArticleForm()
 
         return  render(request,'bbs/new-article.html',{'article_from':article_from})
+    elif request.method == "POST":
+        print(request.POST)
+        print(request.FILES)
+
+        article_from = form.ArticleForm(request.POST,request.FILES)
+        if article_from.is_valid():
+            #print(article_from.cleaned_data)
+            data = article_from.cleaned_data
+            data['author_id'] = request.user.userprofile.id
+
+            article_obj = models.Article(**data)
+            article_obj.save()
+            #article_from.save()
+            return HttpResponse('ok')
+        else:
+            return  render(request,'bbs/new-article.html',{'article_from':article_from})

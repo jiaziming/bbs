@@ -2,7 +2,7 @@
 {% load custom %}
 {% block page-container %}
     <div class="wrap-left">
-        {% for article in article_list  %}
+        {% for article in article_list reversed %}
             <div class="article-box row">
                 <div class="article-head-img col-lg-4">
                     <img src="/static/{{ article.head_img|truncate_url }}">
