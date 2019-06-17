@@ -6,6 +6,8 @@ from django.contrib.auth.decorators import login_required
 from bbs import models,comment_hader
 from bbs import form
 import json
+import os
+
 
 
 # Create your views here.
@@ -102,10 +104,35 @@ def new_article(request):
             #print(article_from.cleaned_data)
             data = article_from.cleaned_data
             data['author_id'] = request.user.userprofile.id
-
+                                                                                                                        
             article_obj = models.Article(**data)
             article_obj.save()
             #article_from.save()
             return HttpResponse('ok')
         else:
             return  render(request,'bbs/new-article.html',{'article_from':article_from})
+
+
+def file_upload(request):
+
+    print(request.FILES )
+    file_obj = request.FILES.get('filename')
+    #with open(os.path.join("/Users/jia/PycharmProjects/new-old/day20/s20bbs/uploads",file_obj.name),'wb+') as destination:
+    with open("uploads/%s" %file_obj.name,'wb+') as destination:
+
+
+        for chunk in file_obj.chunks():
+            destination.write(chunk)
+
+    return render(request,'bbs/new-article.html')
+
+
+def get_latest_article_count(request):
+    latest_article_id = request.GET.get("latest_id")
+    if latest_article_id:
+        new_article_count = models.Article.objects.filter(id__gt = latest_article_id).count()
+
+        print("new article count:",new_article_count)
+    else:
+        new_article_count = 0
+    return HttpResponse(json.dumps({'new_article_count':new_article_count}))

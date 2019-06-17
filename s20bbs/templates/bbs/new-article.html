@@ -2,15 +2,23 @@
 {% load custom %}
 {% block page-container %}
     <div class="wrap-left">
-        <form method="post" enctype="multipart/form-data"> {% csrf_token %}
+        <form method="post" enctype="multipart/form-data">{% csrf_token %}
             <!--
             符文本编辑器    ueditor  百度   ckeditir  国外付费
              -->
-
             {{ article_from }}
-            <input type="submit" class="button-Release" value="发布文章">
+
+            <input type="submit" class="btn btn-success pull-right " value="发布文章">
         </form>
+
+        <hr/>
+        <form method="post" enctype="multipart/form-data"  action="{% url 'file_upload' %}">
+            <input name='filename' type="file" /> {% csrf_token %}
+            <input type="submit" value="上传文件" />{% csrf_token %}
+        </form>
+
     </div>
+
     <div class="wrap-right">
      sdfsdf
     </div>
@@ -22,9 +30,7 @@
 
 <script src="/static/plugins/ckeditor/ckeditor.js"></script>
 <script type="text/javascript">
-    CKEDITOR.replace(id ="id_content")
+    CKEDITOR.replace(id ='id_content');
 
 </script>
-
-
 {% endblock %}

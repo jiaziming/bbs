@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf63f049-cd06-4c30-8920-649f802f5a81" name="Default Changelist" comment="内容发布">
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/ie-emulation-modes-warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/ie10-viewport-bug-workaround.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/jquery-3.4.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/bootstrap/js/npm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/.idea/vcs.xml" afterDir="false" />
@@ -30,341 +18,10 @@
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/status_crm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/status_crm/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day18/status_crm/status_crm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day18/status_crm/status_crm/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbs/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/bbs/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bbs/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bbs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bbs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/CHANGES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/adapters/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/build-config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/ckeditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/contents.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/en-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/es-mx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/fo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/gu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/mn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/oc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/sr-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/tt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/lang/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/about/dialogs/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/dialog/dialogDefinition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/icons_hidpi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/image/dialogs/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/image/images/noimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/link/dialogs/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/link/dialogs/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/link/images/anchor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/magicline/images/icon-rtl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/magicline/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/pastefromword/filter/default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/scayt/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/scayt/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/scayt/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/scayt/dialogs/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/scayt/dialogs/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/oc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/sr-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/tt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/table/dialogs/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/tableselection/styles/tableselection.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/widget/images/handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/wsc/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/wsc/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/css/samples.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/img/github-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/img/header-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/img/header-separator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/img/navigation-tip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/js/sample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/js/sf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/ajax.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/api.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/appendto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/assets/inlineall/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/assets/posteddata.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/assets/sample.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/assets/uilanguages/languages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/datafiltering.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/dialog/assets/my_dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/dialog/dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/divreplace.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/enterkey/enterkey.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/inlineall.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/inlinebycode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/inlinetextarea.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/jquery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/magicline/magicline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/readonly.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/replacebyclass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/replacebycode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/sample.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/sample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/sample_posteddata.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/tabindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/toolbar/toolbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/uicolor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/uilanguages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/old/xhtmlstyle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/font/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/dialog_ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/dialog_ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/dialog_iequirks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/editor_gecko.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/editor_ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/editor_ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/editor_iequirks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/icons_hidpi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/images/hidpi/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/images/hidpi/lock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/images/lock-open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/images/lock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/images/refresh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/images/spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/skins/moono-lisa/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/plugins/ckeditor/styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bbs/article_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bbs/article_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s20bbs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/s20bbs/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/bootstrap/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bbs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bbs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/bbs/new-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bbs/new-article.html" afterDir="false" />
     </list>
@@ -397,22 +54,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bbs/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bbs/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="472">
+              <caret line="120" column="64" lean-forward="true" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
               <folding>
                 <element signature="e#0#69#0" expanded="true" />
               </folding>
@@ -420,34 +65,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bbs/new-article.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/bbs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="617">
+              <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/s20bbs/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+            <state relative-caret-position="419">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bbs/form.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <element signature="e#40#74#0" expanded="true" />
+                <element signature="e#630#662#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -456,29 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statics/bootstrap/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/bbs/article_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="88" column="64" lean-forward="true" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bbs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="481">
+              <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -519,7 +131,6 @@
         <option value="$PROJECT_DIR$/templates/bbs/login.html" />
         <option value="$PROJECT_DIR$/s20bbs/urls.py" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/s20bbs/settings.py" />
         <option value="$PROJECT_DIR$/bbs/templatestags/custom_tag.py" />
         <option value="$PROJECT_DIR$/bbs/templatestags/custom.py" />
         <option value="$PROJECT_DIR$/statics/bootstrap/css/custom.js" />
@@ -530,21 +141,23 @@
         <option value="$PROJECT_DIR$/bbs/comment_hander.py" />
         <option value="$PROJECT_DIR$/1111.py" />
         <option value="$PROJECT_DIR$/bbs/models.py" />
-        <option value="$PROJECT_DIR$/statics/bootstrap/css/custom.css" />
         <option value="$PROJECT_DIR$/bbs/comment_hader.py" />
-        <option value="$PROJECT_DIR$/bbs/urls.py" />
-        <option value="$PROJECT_DIR$/templates/bbs/new-article.html" />
         <option value="$PROJECT_DIR$/bbs/form.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/bbs/views.py" />
-        <option value="$PROJECT_DIR$/templates/bbs/index.html" />
         <option value="$PROJECT_DIR$/templates/bbs/article_detail.html" />
+        <option value="$PROJECT_DIR$/s20bbs/settings.py" />
+        <option value="$PROJECT_DIR$/111.py" />
+        <option value="$PROJECT_DIR$/templates/bbs/new-article.html" />
+        <option value="$PROJECT_DIR$/bbs/urls.py" />
+        <option value="$PROJECT_DIR$/bbs/views.py" />
+        <option value="$PROJECT_DIR$/statics/bootstrap/css/custom.css" />
+        <option value="$PROJECT_DIR$/templates/bbs/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -552,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -593,18 +207,26 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="bbs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="s20bbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="s20bbs" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="s20bbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/statics/plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -614,18 +236,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/statics/bootstrap/js" />
-      <recent name="$PROJECT_DIR$/statics/bootstrap/css" />
-      <recent name="$PROJECT_DIR$/statics" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/statics/plugins" />
       <recent name="$PROJECT_DIR$/templates/bbs" />
       <recent name="$PROJECT_DIR$/statics/login/bootstrap/js" />
       <recent name="$PROJECT_DIR$/statics/login/bootstrap/css" />
       <recent name="$PROJECT_DIR$/statics/login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/s20bbs" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/statics/bootstrap/js" />
+      <recent name="$PROJECT_DIR$/statics/bootstrap/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -640,7 +263,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.s20bbs">
+  <component name="RunManager" selected="Python.111">
+    <configuration name="111" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="s20bbs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/111.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="s20bbs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -689,6 +334,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.111" />
         <item itemvalue="Python.1111" />
       </list>
     </recent_temporary>
@@ -713,7 +359,9 @@
       <workItem from="1558922816645" duration="18053000" />
       <workItem from="1559123351783" duration="5586000" />
       <workItem from="1559270736246" duration="20274000" />
-      <workItem from="1559634826894" duration="5271000" />
+      <workItem from="1559634826894" duration="5475000" />
+      <workItem from="1559721661818" duration="4996000" />
+      <workItem from="1559813705515" duration="22936000" />
     </task>
     <task id="LOCAL-00001" summary="评论涉及">
       <created>1559125713872</created>
@@ -733,7 +381,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136317000" />
+    <option name="totallyTimeSpent" value="164453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -752,14 +400,14 @@
       <window_info id="Structure" order="1" sideWeight="0.5045593" side_tool="true" weight="0.25772098" />
       <window_info id="Favorites" order="2" sideWeight="0.50142044" side_tool="true" weight="0.24973376" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49840257" visible="true" weight="0.3431772" />
-      <window_info anchor="bottom" id="Database Changes" order="2" sideWeight="0.49946752" weight="0.32928064" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49840257" weight="0.3431772" />
+      <window_info anchor="bottom" id="Database Changes" order="2" sideWeight="0.49946752" weight="0.32892057" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32892057" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.32928064" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946752" weight="0.28615072" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50159746" side_tool="true" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32928064" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32892057" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -771,18 +419,18 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32960597" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49544072" visible="true" weight="0.20500532" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49544072" visible="true" weight="0.13782051" />
       <window_info id="Structure" order="1" sideWeight="0.5045593" side_tool="true" weight="0.25772098" />
       <window_info id="Favorites" order="2" sideWeight="0.50142044" side_tool="true" weight="0.24973376" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.49840257" visible="true" weight="0.32928064" />
-      <window_info anchor="bottom" id="Database Changes" order="2" sideWeight="0.49946752" weight="0.32928064" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
-      <window_info anchor="bottom" id="Python Console" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946752" weight="0.28672746" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.49840257" visible="true" weight="0.3431772" />
+      <window_info anchor="bottom" id="Database Changes" order="2" sideWeight="0.49946752" weight="0.32892057" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32892057" />
+      <window_info anchor="bottom" id="Python Console" order="4" weight="0.32928064" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49946752" weight="0.28615072" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50159746" side_tool="true" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32928064" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32892057" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -845,14 +493,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/s20bbs$1111.coverage" NAME="1111 Coverage Results" MODIFIED="1559123433108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/s20bbs$111.coverage" NAME="111 Coverage Results" MODIFIED="1560138126710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statics/login/login/bootstrap.min.js" />
-    <entry file="file://$PROJECT_DIR$/statics/login/login/ie10-viewport-bug-workaround.css" />
-    <entry file="file://$PROJECT_DIR$/statics/login/login/ie-emulation-modes-warning.js" />
     <entry file="file://$PROJECT_DIR$/statics/login/login/navbar-static-top.css" />
     <entry file="file://$PROJECT_DIR$/statics/login/login/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/statics/login/login/jquery.min.js" />
@@ -949,16 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s20bbs/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s20bbs/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -974,13 +607,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s20bbs/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2322">
-          <caret line="129" column="35" lean-forward="true" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1015,40 +641,6 @@
     <entry file="file://$PROJECT_DIR$/statics/plugins/ckeditor/lang/af.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bbs/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statics/bootstrap/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bbs/new-article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bbs/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="e#40#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bbs/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1059,10 +651,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bbs/article_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="41" column="80" lean-forward="true" selection-start-line="41" selection-start-column="80" selection-end-line="41" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="46" column="63" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s20bbs/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bbs/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="e#40#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bbs/new-article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/ download.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s20bbs/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bbs/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="102" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="102" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/django/db/models/sql/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="1153" column="84" lean-forward="true" selection-start-line="1153" selection-start-column="84" selection-end-line="1153" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/zoltan-tasi-1073833-unsplash.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/bootstrap/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bbs/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="472">
+          <caret line="120" column="64" lean-forward="true" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
           </folding>
@@ -1071,28 +752,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/bbs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bbs/article_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="88" column="64" lean-forward="true" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="617">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
