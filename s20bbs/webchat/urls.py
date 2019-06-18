@@ -15,13 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,re_path,include
-from bbs import views
+from webchat import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    re_path('bbs/',include('bbs.urls')),
-    re_path('chart/', include('webchat.urls')),
-    re_path('login/', views.acc_login,name='login'),
-    re_path('logout/', views.acc_logout, name='logout'),
+
+    re_path(r'^$', views.dashboard, name='chart_dashboard'),
 
 ]

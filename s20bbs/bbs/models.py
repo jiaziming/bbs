@@ -80,6 +80,10 @@ class  UserProfile(models.Model):
     sigature = models.CharField(max_length=255,blank=True,null=True)
     head_img = models.ImageField(height_field=150,width_field=150,blank=True,null=True)
 
+
+    #web qq models
+    friends = models.ManyToManyField('self',related_name="my_friends",blank=True)
+
     class Meta:
         verbose_name_plural = u'用户信息'
 

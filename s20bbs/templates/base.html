@@ -49,6 +49,8 @@
                    <li class=""><a href="{% url 'category' category.id %}">{{ category.name }}</a></li>
                {% endif %}
            {% endfor %}
+                <li class=""><a href="{% url 'chart_dashboard'%}"> 聊天专区 </a></li>
+
           </ul>
            {% endblock %}
           <ul class="nav navbar-nav navbar-right">

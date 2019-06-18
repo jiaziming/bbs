@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block page-container %}
+
+    <div class="chart-container">
+        <div class="left-contact-panel">
+            contacts
+            <div>
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#contact-tab"  role="tab" data-toggle="tab">好友</a>
+                </li>
+                <li role="presentation">
+                    <a href="#group-tab"  role="tab" data-toggle="tab">群组</a>
+                </li>
+              </ul>
+
+              <!-- Tab panes -->
+               <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="contact-tab">
+               <ul class="list-group">
+                {% for friend in request.user.userprofile.friends.select_related %}
+                    <li contact-type="single" contact-id="{{ friend.id }}" onclick="OpenChatWindow(this)" class="list-group-item">
+                        <span class="badge hide"></span>
+                        <span class="contact-name"> {{ friend.name }} </span>
+                    </li>
+                {% endfor %}
+            </ul>
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="group-tab">
+                gropu
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        </div>
+        <div class="right-chat-panel">
+            <div class="chat-box-title" contact-type="" contact-id="">
+                title
+            </div>
+            <div class="chat-box-window">
+                window
+            </div>
+            <div class="chat-box-emoj">
+                emoj
+            </div>
+            <div class="chat-box-msg-box">
+                <textarea id="msg"></textarea>
+                <button class="btn btn-success">发送消息</button>
+            </div>
+        </div>
+        <div class="clear-both"></div>
+    </div>
+
+{% endblock %}
+
+
+
+{% block bottom-js %}
+
+<script>
+
+    $(document).ready(function () {
+        $("#navbar a[href='{{ request.path }}']").parent().addClass("active");
+    });//end doc read
+
+    function OpenChatWindow(ele){
+        console.log($(ele));
+
+        $(ele).addClass("active");
+        $(ele).siblings().removeClass("active");
+        var contact_id = $(ele).attr("contact-id");
+        var contact_name = $(ele).find(".contact-name").text();
+        var contact_type = $(ele).attr("contact-type");
+
+        var chat_box_title_content =  contact_name +"正在输入";
+        $(".chat-box-title").html(chat_box_title_content)
+
+    }
+
+
+</script>
+
+
+{% endblock %}
