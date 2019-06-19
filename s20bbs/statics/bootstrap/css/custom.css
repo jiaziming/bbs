@@ -176,6 +176,7 @@ body {
 .chat-box-window {
     height: 450px;
     border: 1px solid black;
+    overflow: auto;  /*给div标签 内容多了自动添加滚动条*/
 
 }
 
@@ -187,4 +188,13 @@ body {
 .chat-box-msg-box {
     height: 120px;
     border: 1px solid deeppink;
+}
+
+.chat-box-msg-box textarea {
+    height: 100%;
+    width: 85%;
+}
+
+.chat-box-msg-box button {
+    margin-bottom: 80px;
 }

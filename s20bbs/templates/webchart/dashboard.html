@@ -69,7 +69,38 @@
 
     $(document).ready(function () {
         $("#navbar a[href='{{ request.path }}']").parent().addClass("active");
-    });//end doc read
+
+        //send msg
+        $("body").delegate("textarea","keydown",function (e) {
+            if(e.which ==13) {  //Enter key down
+                //send msg button clicked
+                var msg_text = $("textarea").val();
+                if ($.trim(msg_text).length >0){
+                    console.log(msg_text)
+                    //SenMsg(msg_text)
+                }
+                // no wait the sen_msg's call confirm msg
+                AddSentMsgIntoBox(msg_text)
+                $("textarea").val('');
+
+            }
+        });
+
+    });//end doc ready
+
+    function AddSentMsgIntoBox(msg_text) {
+        var new_msg_ele = "<div class='msg-itme'>" +
+                                "<span>" + "{{ request.user.userprofile.name }}" + "</span>" +
+                                "<span>" + new Date().toLocaleDateString() + "</span>" +
+                                "<div class='msg-text'>" + msg_text + "</div>" +
+                            "</div>"
+        $(".chat-box-window").append(new_msg_ele)
+
+        $(".chat-box-window").animate({
+            scrollTop: $(".chat-box-window") [0].scrollHeight},500)
+    }
+
+
 
     function OpenChatWindow(ele){
         console.log($(ele));
@@ -84,6 +115,9 @@
         $(".chat-box-title").html(chat_box_title_content)
 
     }
+
+
+
 
 
 </script>
