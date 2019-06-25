@@ -20,5 +20,7 @@ from webchat import views
 urlpatterns = [
 
     re_path(r'^$', views.dashboard, name='chart_dashboard'),
+    re_path(r'^msg_send/$', views.send_msg, name='send_msg'),
+    re_path(r'^new_msg/$',views.get_new_msgs,name ='get_new_msgs')
 
 ]
